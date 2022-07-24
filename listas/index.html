@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/efb432bf3d.js" crossorigin="anonymous"></script>
+    <title>QR code generator</title>
+
+</head>
+
+<body>
+    <main>
+        <h1>Qr generator :D</h1>
+        <form id="generator">
+            <input placeholder="Write your text here" type="text" id="text-qr">
+            <section class="qr-container">
+                <h3>QR here</h3>
+                <img id="qr" alt="">
+            </section>
+            <div class="buttons">
+                <button type="submit" id="send">
+                    Generate
+                </button>
+                <a id="download" target="_blank">
+                    <button type="button">
+                        Open Qr
+                    </button>
+                </a>
+            </div>
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
